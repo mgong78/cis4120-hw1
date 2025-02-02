@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <link href="/styles.css" rel="stylesheet" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <h2><a href="https://weather.com/weather/today/l/Philadelphia+PA?canonicalCityId=aa0f46aff5c7ee96eb5fdea10c53c77c9578eb071854d7f04ae0a7aa517772ab">PHILADELPHIA</a></h2>
+        <div id = "main-info">
+            
+
+            <div id = "main-weather-card">
+                <p>NOW</p>
+                <img class="icon-L" src="/assets/cloudy.png" /> 
+                <h3>41˚</h3>
+            </div>
+            <div id = "side-section">
+                <div id = "scroll-bar">
+                    <div class = "next-weather-card">
+                        <p>1PM</p>
+                        <img class="icon-M" src="/assets/partlycloudy.png" /> 
+                        <h4>43˚</h4>
+                    </div>
+        
+                    <div class = "next-weather-card">
+                        <p>2PM</p>
+                        <img class="icon-M" src="/assets/sunny.png" /> 
+                        <h4>45˚</h4>
+                    </div>
+    
+                    <div class = "next-weather-card">
+                        <p>3PM</p>
+                        <img class="icon-M" src="/assets/sunny.png" /> 
+                        <h4>44˚</h4>
+                    </div>
+                    <div class = "next-weather-card">
+                        <p>4PM</p>
+                        <img class="icon-M" src="/assets/cloudy.png" /> 
+                        <h4>42˚</h4>
+                    </div>
+                    <div class = "next-weather-card">
+                        <p>5PM</p>
+                        <img class="icon-M" src="/assets/cloudy.png" /> 
+                        <h4>38˚</h4>
+                    </div>
+                    <div class = "next-weather-card">
+                        <p>6PM</p>
+                        <img class="icon-M" src="/assets/cloudy.png" /> 
+                        <h4>34˚</h4>
+                    </div>
+                </div>
+    
+                <div id = "toggle">
+                    <p>Actual Temperatures</p>
+                    <label class="toggle">
+                        <input type="checkbox" id="btnToggle" name="btnToggle" />
+                        <span class="slider"></span>
+                    </label>
+                    <p>"Feels Like" Temperatures</p>  
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div id = "week-ahead">
+            <h3>WEATHER FOR THE WEEK</h3>
+            <table>
+                <tr>
+                  <td>Today</td>
+                  <td><img class="icon-S" src="/assets/cloudy.png" /></td>
+                  <td></td>
+                  <td>30˚</td>
+                  <td><img class="bar-icon" src="/assets/red+blue+gradient.jpg"/></td>
+                  <td>50˚</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td><img class="icon-S" src="/assets/sunny.png" /></td>
+                    <td></td>
+                    <td>20˚</td>
+                    <td><img class="bar-icon" src="/assets/red+blue+gradient.jpg"/></td>
+                    <td>30˚</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td><img class="icon-S" src="/assets/partlycloudy.png" /></td>
+                    <td></td>
+                    <td>35˚</td>
+                    <td><img class="bar-icon" src="/assets/red+blue+gradient.jpg"/></td>
+                    <td>45˚</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td class="chance"><img class="icon-S" src="/assets/rain.ico" /> 80%</td>
+                    <td></td>
+                    <td>30˚</td>
+                    <td><img class="bar-icon" src="/assets/red+blue+gradient.jpg"/></td>
+                    <td>50˚</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td class="chance"><img class="icon-S" src="/assets/snow.png" /> 50%</td>
+                    <td></td>
+                    <td>20˚</td>
+                    <td><img class="bar-icon" src="/assets/red+blue+gradient.jpg"/></td>
+                    <td>25˚</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td><img class="icon-S" src="/assets/sunny.png" /></td>
+                    <td></td>
+                    <td>10˚</td>
+                    <td><img class="bar-icon" src="/assets/red+blue+gradient.jpg"/></td>
+                    <td>31˚</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td><img class="icon-S" src="/assets/cloudy.png" /></td>
+                    <td></td>
+                    <td>15˚</td>
+                    <td><img class="bar-icon" src="/assets/red+blue+gradient.jpg"/></td>
+                    <td>25˚</td>
+                </tr>
+              </table>
+        </div>
+        
+        <div id = "other-info">
+            <div class = "tab">
+                <h3>Precipitation</h3>
+                <div class = button style="background-color:#278cba">
+                    <p>50%</p>
+                </div>
+            </div>
+            <div class = "tab">
+                <h3>Air Quality</h3>
+                <div class = button style="background-color: #349960;">
+                    <p>55</p>
+                </div>
+            </div>
+            <div class = "tab">
+                <h3>Humidity</h3>
+                <div class = button style="background-color: #ba4b2d;">
+                    <p>90%</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>
